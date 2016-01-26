@@ -1,0 +1,8 @@
+package mode;
+
+public class City {
+	private int id;
+	private String cityName;
+	private String cityCode;
+	private int provinceId;
+}
