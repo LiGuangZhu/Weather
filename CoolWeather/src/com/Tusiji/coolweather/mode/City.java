@@ -1,4 +1,4 @@
-package mode;
+package com.Tusiji.coolweather.mode;
 
 public class City {
 	private int id;

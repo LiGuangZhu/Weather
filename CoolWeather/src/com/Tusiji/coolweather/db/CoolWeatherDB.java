@@ -1,11 +1,12 @@
-package db;
+package com.Tusiji.coolweather.db;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import mode.City;
-import mode.County;
-import mode.Province;
+import com.Tusiji.coolweather.mode.City;
+import com.Tusiji.coolweather.mode.County;
+import com.Tusiji.coolweather.mode.Province;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -48,7 +49,7 @@ public class CoolWeatherDB {
 	/**
 	 * 将Province实例存储到数据库。
 	 */
-	public void SavaProvince(Province province) {
+	public  void SavaProvince(Province province) {
 		if (province != null) {
 			ContentValues values = new ContentValues();
 			values.put("province_name", province.getProvinceName());

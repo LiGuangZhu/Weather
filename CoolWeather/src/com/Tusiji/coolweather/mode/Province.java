@@ -1,4 +1,4 @@
-package mode;
+package com.Tusiji.coolweather.mode;
 
 public class Province {
 	private int id;
